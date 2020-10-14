@@ -1,0 +1,16 @@
+PODS:
+  - XinCanCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - XinCanCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  XinCanCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XinCanCategoryKit: acc918187d9e85e0f54c16123499091ae04ba98d
+
+PODFILE CHECKSUM: 10c97dce9d54b07996aef69e1ae8643238671355
+
+COCOAPODS: 1.10.0.rc.1

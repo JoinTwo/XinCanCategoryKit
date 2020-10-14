@@ -1,0 +1,6 @@
+framework module XinCanCategoryKit {
+  umbrella header "XinCanCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

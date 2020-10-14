@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		40EA6FD3B2B54BB445E46F6C /* Pods-XinCanCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XinCanCategoryKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-XinCanCategoryKit_Example/Pods-XinCanCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4F4158AC3B0EC9D618A0A4EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4F4158AC3B0EC9D618A0A4EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XinCanCategoryKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XinCanCategoryKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,11 +62,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9405397BC46DDA830A7E0206 /* Pods_XinCanCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XinCanCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E2C9EAA0B55C6EE8D81670 /* Pods-XinCanCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XinCanCategoryKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-XinCanCategoryKit_Tests/Pods-XinCanCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A7DF9CBF7AF1C86A9DAC71E8 /* XinCanCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XinCanCategoryKit.podspec; path = ../XinCanCategoryKit.podspec; sourceTree = "<group>"; };
+		A7DF9CBF7AF1C86A9DAC71E8 /* XinCanCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XinCanCategoryKit.podspec; path = ../XinCanCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ABA28ACFC321E5CA518281EE /* Pods-XinCanCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XinCanCategoryKit_Example.release.xcconfig"; path = "Target Support Files/Pods-XinCanCategoryKit_Example/Pods-XinCanCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4716E050A92EC7A520B0708 /* Pods_XinCanCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XinCanCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77439F863952763F40A2D50 /* Pods-XinCanCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XinCanCategoryKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XinCanCategoryKit_Tests/Pods-XinCanCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DAC7D733970A63BCA9374911 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DAC7D733970A63BCA9374911 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				D77439F863952763F40A2D50 /* Pods-XinCanCategoryKit_Tests.debug.xcconfig */,
 				A1E2C9EAA0B55C6EE8D81670 /* Pods-XinCanCategoryKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

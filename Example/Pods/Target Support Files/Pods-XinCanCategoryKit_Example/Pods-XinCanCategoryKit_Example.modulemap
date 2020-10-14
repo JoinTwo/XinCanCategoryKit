@@ -1,0 +1,6 @@
+framework module Pods_XinCanCategoryKit_Example {
+  umbrella header "Pods-XinCanCategoryKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
